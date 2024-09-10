@@ -8,3 +8,8 @@ const closeModalBtn = document.querySelector("#close-modal-btn")
 const cartCounter = document.querySelector("#cart-count")
 const adressInput = document.querySelector("#adress")
 const addresWarn = document.querySelector("#address-warn")
+
+
+cartBtn.addEventListener("click", function() {
+    cartModal.style.display = "flex"
+})
