@@ -13,8 +13,8 @@ let cart = [];
 
 // Abrir o modal do carrinho
 cartBtn.addEventListener("click", function() {
-    cartModal.style.display = "flex"
-})    cartModal.style.display = "flex";
+    cartModal.style.display = "flex";
+    updateCartModal();
 })
 cartModal.addEventListener("click", function(event) {
     if(event.target === cartModal){
