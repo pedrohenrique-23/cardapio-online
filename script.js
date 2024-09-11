@@ -92,3 +92,10 @@ function updateCartModal() {
 }
 
 // Função para remover item do carrinho
+cartItemsContainer.addEventListener("click", function(event){
+    if(event.target.classList.contains("remove-btn")){
+        const name = event.target.getAttribute("data-name")
+
+        removeItemCart(name)
+    }
+})
