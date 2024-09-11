@@ -1,3 +1,3 @@
 **Importante:**
 
-**Vídeo:** Parou no minuto 56:23.
+**Vídeo:** Parou no minuto 01:00:00.
