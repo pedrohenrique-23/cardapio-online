@@ -22,3 +22,7 @@ cartModal.addEventListener("click", function(event) {
     }
 })
 
+closeModalBtn.addEventListener("click", function(){
+    cartModal.style.display = "none"
+})
+
