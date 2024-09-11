@@ -11,6 +11,8 @@ const addresWarn = document.querySelector("#address-warn")
 
 let cart = [];
 
+// Abrir o modal do carrinho
 cartBtn.addEventListener("click", function() {
     cartModal.style.display = "flex"
+})    cartModal.style.display = "flex";
 })
