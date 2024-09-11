@@ -26,3 +26,31 @@ closeModalBtn.addEventListener("click", function(){
     cartModal.style.display = "none"
 })
 
+menu.addEventListener("click", function(event) {
+    let parentButton = event.target.closest(".add-to-cart-btn")
+
+    if(parentButton){
+        const name = parentButton.getAttribute("data-name")
+        const price = parseFloat(parentButton.getAttribute("data-price"))
+        
+        // Adicionar no carrinho
+        addToCart(name, price)
+    }
+})
+
+// Função para adicionar no carrinho
+function addToCart(name, price){
+    const existingItem = cart.find(item => item.name === name)
+
+    if(existingItem){
+        existingItem.quantity += 1;
+    }else{
+        cart.push({
+            name, 
+            price,
+            quantity: 1,
+        })
+    }
+
+    updateCartModal()
+}
