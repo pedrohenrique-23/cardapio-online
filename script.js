@@ -54,3 +54,24 @@ function addToCart(name, price){
 
     updateCartModal()
 }
+
+// Atualiza o carrinho
+function updateCartModal() {
+    cartItemsContainer.innerHTML = "";
+    let total = 0;
+
+    cart.forEach(item => {
+        const cartItemElement = document.createElement("div");
+        cartItemElement.classList.add("flex", "justify-between", "mb-4", "flex-col")
+        cartItemElement.innerHTML = `
+            <div class="flex items-center justify-between border-b-2 border-gray-300 pb-4">
+                <div>
+                    <p  class="font-bold">${item.name}</p>
+                    <p>Quantidade: ${item.quantity}</p>
+                    <p class="font-medium mt-2">R$ ${item.price.toFixed(2)}</p>
+                </div>
+                <div>
+                    <button class="remove-btn" data-name="${item.name}">Remover<button>
+                </div>
+            </div>
+        `
