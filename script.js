@@ -16,3 +16,9 @@ cartBtn.addEventListener("click", function() {
     cartModal.style.display = "flex"
 })    cartModal.style.display = "flex";
 })
+cartModal.addEventListener("click", function(event) {
+    if(event.target === cartModal){
+        cartModal.style.display = "none"
+    }
+})
+
