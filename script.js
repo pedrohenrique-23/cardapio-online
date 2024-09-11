@@ -90,3 +90,5 @@ function updateCartModal() {
 
     cartCounter.innerHTML = cart.length;
 }
+
+// Função para remover item do carrinho
