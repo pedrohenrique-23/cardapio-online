@@ -143,3 +143,4 @@ function checkRestaurantOpen(){
     return hora >= 18 && hora < 22; 
 }
 
+const spanItem = document.querySelector("#date-span")
