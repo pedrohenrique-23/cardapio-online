@@ -6,10 +6,9 @@ const cartTotal = document.querySelector("#cart-total")
 const checkoutBtn = document.querySelector("#checkout-btn")
 const closeModalBtn = document.querySelector("#close-modal-btn")
 const cartCounter = document.querySelector("#cart-count")
-const adressInput = document.querySelector("#adress")
-const addresWarn = document.querySelector("#address-warn")
 const addressInput = document.querySelector("#address");
 const addressWarn = document.querySelector("#address-warn");
+
 
 let cart = [];
 
