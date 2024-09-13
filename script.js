@@ -156,13 +156,13 @@ checkoutBtn.addEventListener("click", function(){
     //Enviar o pedido para a api wpp
     const cartItems = cart.map((item) => {
         return(
-           `Boa noite! Por favor, produzir e enviar o seguinte pedido:
-           ${item.name} - Quantidade: (${item.quantity}) - Preço: R$ ${item.price} |` 
+           `*Boa noite! Por favor, produzir e enviar o seguinte pedido:*
+           - ${item.name} - Quantidade: (${item.quantity}) - Preço: R$ ${item.price} |` 
         )
     }).join("")
 
     const message = encodeURIComponent(cartItems)
-    const phone = "88993118650"
+    const phone = "+5588993118650"
     window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
 
     cart = [];
