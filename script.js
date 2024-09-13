@@ -156,7 +156,8 @@ checkoutBtn.addEventListener("click", function(){
     //Enviar o pedido para a api wpp
     const cartItems = cart.map((item) => {
         return(
-           `${item.name} - Quantidade: (${item.quantity}) - Preço: R$ ${item.price} |` 
+           `Boa noite! Por favor, produzir e enviar o seguinte pedido:
+           ${item.name} - Quantidade: (${item.quantity}) - Preço: R$ ${item.price} |` 
         )
     }).join("")
 
