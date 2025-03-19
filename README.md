@@ -16,6 +16,10 @@
 - **Integração com WhatsApp**: Facilita a comunicação direta com o cliente via WhatsApp.
 - **Notificações em Tempo Real**: Notificações de atualizações de pedidos utilizando o **Toastify**.
 
+## 📸 Demonstração
+
+🔗 [Clique aqui para ver o projeto](https://cardapio-online-pi.vercel.app/)
+
 ## 🚀 **Como Rodar o Projeto**
 
 1. Clone o repositório:
