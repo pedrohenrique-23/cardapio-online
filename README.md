@@ -62,4 +62,4 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas 
 Caso tenha dúvidas ou sugestões, entre em contato comigo:
 
 - **Email**: pedrosilva10057@gmail.com
-- **LinkedIn**: [Seu LinkedIn](https://www.linkedin.com/in/pedro-silva-05794833b/)
+- **LinkedIn**: [Meu LinkedIn](https://www.linkedin.com/in/pedro-silva-05794833b/)
