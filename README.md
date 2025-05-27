@@ -22,8 +22,6 @@
 
 ## 🚀 **Como Rodar o Projeto**
 
-→ Você pode acessá-lo através do link: [clique aqui](https://portfolio-opal-psi-45.vercel.app/) ou seguir os passos abaixo:
-
 1. Clone o repositório:
    ```bash
    git clone git@github.com:pedrohenrique-23/cardapio-online.git
