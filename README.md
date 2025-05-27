@@ -29,7 +29,7 @@
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd dev-burguer
+   cd cardapio-online
    ```
 
 3. Instale as dependências:
