@@ -22,6 +22,8 @@
 
 ## 🚀 **Como Rodar o Projeto**
 
+→ Você pode acessá-lo através do link: [clique aqui](https://portfolio-opal-psi-45.vercel.app/) ou seguir os passos abaixo:
+
 1. Clone o repositório:
    ```bash
    git clone git@github.com:pedrohenrique-23/cardapio-online.git
@@ -32,15 +34,12 @@
    cd cardapio-online
    ```
 
-3. Instale as dependências:
+3. Abra o projeto no VS Code
    ```bash
-   npm install
+   code .
    ```
 
-4. Execute a aplicação:
-   ```bash
-   npm start
-   ```
+4. Execute com o Live Server
 
 5. Acesse a aplicação no seu navegador: `http://localhost:3000`
 
